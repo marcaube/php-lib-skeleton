@@ -1,0 +1,26 @@
+{
+    "name": "vendor/projectname",
+    "description": "",
+    "homepage": "",
+    "keywords": [],
+
+    "license": "MIT",
+    "type": "library",
+
+    "authors": [
+        {
+            "name": "",
+            "homepage": ""
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "ProjectName": "src/"
+        }
+    }
+}

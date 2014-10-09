@@ -17,10 +17,22 @@
     "require": {
         "php": ">=5.3"
     },
-
+    
+    "require-dev": {
+        "phpunit/phpunit": "~4.2"
+    },
+    
     "autoload": {
-        "psr-0": {
-            "ProjectName": "src/"
+        "psr-4": { "Vendor\\ProjectName\\": "src/"}
+    },
+
+    "autoload-dev": {
+        "psr-4": { "Vendor\\ProjectName\\Tests\\": "tests/" }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }

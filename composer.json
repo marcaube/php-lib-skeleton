@@ -1,11 +1,11 @@
 {
-    "name": "vendor/projectname",
+    "name": "ob/php-lib-skeleton",
     "description": "",
     "homepage": "",
     "keywords": [],
 
     "license": "MIT",
-    "type": "library",
+    "type": "project",
 
     "authors": [
         {

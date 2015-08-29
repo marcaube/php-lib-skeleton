@@ -1,7 +1,21 @@
+# Composer
 composer.lock
-phpunit.xml
-
 composer.phar
+/vendor
+/bin
+
+# PHP CS Fixer
 php-cs-fixer.phar
 
-vendor
+# PHPUnit
+phpunit.xml
+
+# PHPUnit coverage-html output folder
+/build
+
+# Humbug
+humbug.json
+humbuglog.txt
+
+# Node
+/node_modules

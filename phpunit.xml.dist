@@ -11,7 +11,10 @@
         processIsolation            = "false"
         stopOnFailure               = "false"
         syntaxCheck                 = "false"
-        bootstrap                   = "tests/bootstrap.php">
+        bootstrap                   = "tests/bootstrap.php"
+        beStrictAboutTestsThatDoNotTestAnything = "true"
+        checkForUnintentionallyCoveredCode      = "true"
+        beStrictAboutOutputDuringTests          = "true">
 
     <testsuites>
         <testsuite name="Test Suite">
@@ -22,10 +25,10 @@
     <filter>
         <whitelist>
             <directory>./src</directory>
-            <!--<exclude>-->
-            <!--<directory>../tests</directory>-->
-            <!--<directory>../vendor</directory>-->
-            <!--</exclude>-->
         </whitelist>
     </filter>
+
+    <!--<logging>-->
+        <!--<log type="coverage-html" target="./build" charset="UTF-8" highlight="true" lowUpperBound="70" highLowerBound="90"/>-->
+    <!--</logging>-->
 </phpunit>

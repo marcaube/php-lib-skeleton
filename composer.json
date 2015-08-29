@@ -25,11 +25,15 @@
     },
 
     "autoload": {
-        "psr-4": { "Vendor\\ProjectName\\": "src/"}
+        "psr-4": {
+            "Vendor\\ProjectName\\": "src/"
+        }
     },
 
     "autoload-dev": {
-        "psr-4": { "Vendor\\ProjectName\\Tests\\": "tests/" }
+        "psr-4": {
+            "Vendor\\ProjectName\\Tests\\": "tests/"
+        }
     },
 
     "extra": {

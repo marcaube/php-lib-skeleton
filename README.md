@@ -1,38 +1,15 @@
-# Project Name
+# PHP library skeleton
 
-Project's elevator pitch
+This is my starting template for PHP library projects.
 
 
 ## Usage
 
-...
-
-
-## Installation
-
-...
-
-
-## Requirements
-
-...
-
-
-## Contributing
-
-See [CONTRIBUTING.md]() file.
-
-
-## Running the Tests
-
-...
-
-
-## Credits
-
-...
+```
+composer create-project ob/php-lib-skeleton=dev-master your-awesome-project
+```
 
 
 ## License
 
-ProjectName is released under the MIT License. See the bundled [LICENSE]() file for details.
+php-lib-skeleton is released under the MIT License. See the bundled [LICENSE]() file for details.

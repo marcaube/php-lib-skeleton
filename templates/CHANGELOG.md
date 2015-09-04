@@ -9,9 +9,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 TBD
 
 
-## 0.1.0 - 2015-09-03
+## 0.1.0 - [[date]]
 
 - Initial release
 
 
-[unreleased]: https://github.com/marcaube/php-lib-skeleton/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/username/repository/compare/v0.1.0...HEAD

@@ -1,14 +1,12 @@
 {
     "name": "ob/php-lib-skeleton",
-    "description": "",
-    "keywords": [],
-
+    "description": "My starting point for PHP library projects",
     "license": "MIT",
-    "type": "project",
+    "type": "library",
 
     "authors": [
         {
-            "name": ""
+            "name": "Marc Aubé"
         }
     ],
 
@@ -16,33 +14,21 @@
         "php": ">=5.4"
     },
 
-    "require-dev": {
-        "phpunit/phpunit": "^4.8",
-        "humbug/humbug": "^1.0@dev",
-        "mockery/mockery": "^0.9",
-        "phpspec/phpspec": "^2.2",
-        "behat/behat": "^3.0"
-    },
-
     "autoload": {
         "psr-4": {
-            "Vendor\\ProjectName\\": "src/"
+            "Ob\\Skeleton\\": "src/"
         }
     },
 
-    "autoload-dev": {
-        "psr-4": {
-            "Vendor\\ProjectName\\Tests\\": "tests/"
-        }
+    "scripts": {
+        "post-create-project-cmd": [
+            "Ob\\Skeleton\\Installer::postCreateProject"
+        ]
     },
 
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
-    },
-
-    "config": {
-        "bin-dir": "bin"
     }
 }

@@ -47,6 +47,9 @@ class Installer
             }
         }
 
+        self::copyFile('.gitignore', $projectName);
+        self::copyFile('composer.json', $projectName);
+
         self::removeMetadata(self::$metadataToRemoveAfter);
     }
 

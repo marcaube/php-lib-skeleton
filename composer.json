@@ -22,7 +22,8 @@
 
     "scripts": {
         "post-create-project-cmd": [
-            "Ob\\Skeleton\\Installer::postCreateProject"
+            "Ob\\Skeleton\\Installer::postCreateProject",
+            "composer install"
         ]
     },
 
